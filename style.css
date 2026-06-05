@@ -6,12 +6,12 @@
 
 @media (max-width: 480px) {
   main.container {
-    max-width: 100%;   /* use full phone width */
+    max-width: 100%;   
     border-radius: 6px;
   }
 
   .intro, .subscription, .why-us {
-    padding: 12px;     /* tighter spacing */
+    padding: 12px;     
   }
 
   .intro h1 {
