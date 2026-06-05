@@ -9,6 +9,87 @@
   --grayish-blue: hsl(218, 22%, 67%);
 }
 
+@media (max-width: 480px) {
+  body {
+    background-color: var(--light-gray);
+    padding: 15px;
+  }
+
+  .intro, .subscription, .why-us {
+    padding: 20px;
+  }
+
+  .intro h1 {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: var(--cyan);
+    font-weight: 700;
+  }
+
+  .guarantee {
+    font-size: 1rem;
+    color: var(--bright-yellow);
+    font-weight: 700;
+  }
+
+  .description {
+    font-size: 1rem;
+    color: #222; 
+    line-height: 1.7;
+  }
+
+  .subscription {
+    background-color: var(--cyan);
+  }
+
+  .subscription h2 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .price span {
+    font-size: 1.9rem;
+  }
+
+  .access {
+    font-size: 1rem;
+    color: #f9f9f9;
+    line-height: 1.6;
+  }
+
+  .why-us {
+    background-color: var(--cyan-dark);
+  }
+
+  .why-us h2 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .why-us li {
+    font-size: 1rem;
+    color: #f9f9f9;
+    line-height: 1.6;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 14px;
+    background-color: var(--bright-yellow);
+    color: white;
+    font-weight: 700;
+  }
+
+  footer.attribution {
+    font-size: 10px;
+    color: var(--grayish-blue);
+    line-height: 1.4;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -171,60 +252,3 @@ footer a:hover {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 480px) {
-  body {
-    background-color: var(--light-gray);
-    padding: 15px;
-  }
-
-  .intro, .subscription, .why-us {
-    padding: 20px;
-  }
-
-  .intro h1 {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    color: var(--cyan);
-  }
-
-  .guarantee {
-    font-size: 1rem;
-    color: var(--bright-yellow);
-  }
-
-  .description {
-    font-size: 0.95rem;
-    color: var(--grayish-blue);
-    line-height: 1.6;
-  }
-
-  .subscription h2,
-  .why-us h2 {
-    font-size: 1.2rem;
-    line-height: 1.4;
-  }
-
-  .price span {
-    font-size: 1.8rem;
-  }
-
-  .access,
-  .why-us li {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  button {
-    font-size: 1rem;
-    padding: 12px;
-    background-color: var(--bright-yellow);
-    color: white;
-  }
-
-  footer.attribution {
-    font-size: 10px;
-    color: var(--grayish-blue);
-  }
-}
-
-
