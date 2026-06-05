@@ -171,3 +171,18 @@ footer a:hover {
     font-size: 1.5rem;
   }
 }
+@media (max-width: 480px) {
+  .intro, .subscription, .why-us {
+    padding: 20px;
+  }
+
+  .intro h1 {
+    font-size: 1.25rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+}
+
