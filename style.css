@@ -172,17 +172,59 @@ footer a:hover {
   }
 }
 @media (max-width: 480px) {
+  body {
+    background-color: var(--light-gray);
+    padding: 15px;
+  }
+
   .intro, .subscription, .why-us {
     padding: 20px;
   }
 
   .intro h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: var(--cyan);
+  }
+
+  .guarantee {
+    font-size: 1rem;
+    color: var(--bright-yellow);
+  }
+
+  .description {
+    font-size: 0.95rem;
+    color: var(--grayish-blue);
+    line-height: 1.6;
+  }
+
+  .subscription h2,
+  .why-us h2 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .price span {
+    font-size: 1.8rem;
+  }
+
+  .access,
+  .why-us li {
+    font-size: 1rem;
+    line-height: 1.6;
   }
 
   button {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 12px;
+    background-color: var(--bright-yellow);
+    color: white;
+  }
+
+  footer.attribution {
+    font-size: 10px;
+    color: var(--grayish-blue);
   }
 }
+
 
