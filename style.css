@@ -177,45 +177,45 @@ footer a:hover {
 
 @media (max-width: 480px) {
   main.container {
-    transform: scale(0.9);
+    transform: scale(0.85);
     transform-origin: top center;
     max-width: 100%;
   }
 
   .intro, .subscription, .why-us {
-    padding: 12px;
+    padding: 10px;
   }
 
   .intro h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
   }
 
   .subscription h2,
   .why-us h2 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     margin-bottom: 10px;
   }
 
   .description,
   .access,
   .why-us li {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     line-height: 1.4;
   }
 
   .price span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   button {
-    font-size: 0.9rem;
-    padding: 10px;
+    font-size: 0.85rem;
+    padding: 9px;
   }
 
   footer.attribution {
-    font-size: 9px;
-    padding: 8px;
+    font-size: 8px;
+    padding: 6px;
   }
 }
 
