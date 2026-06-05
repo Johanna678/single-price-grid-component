@@ -1,5 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+
+
+
+
+@media (max-width: 480px) {
+  main.container {
+    max-width: 100%;   /* use full phone width */
+    border-radius: 6px;
+  }
+
+  .intro, .subscription, .why-us {
+    padding: 12px;     /* tighter spacing */
+  }
+
+  .intro h1 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .subscription h2,
+  .why-us h2 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .description,
+  .access,
+  .why-us li {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .price span {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  footer.attribution {
+    font-size: 9px;
+    padding: 8px;
+  }
+}
+
 :root {
   --cyan: hsl(179, 62%, 43%);
   --cyan-dark: hsl(179, 62%, 48%);
@@ -9,85 +58,7 @@
   --grayish-blue: hsl(218, 22%, 67%);
 }
 
-@media (max-width: 480px) {
-  body {
-    background-color: var(--light-gray);
-    padding: 15px;
-  }
 
-  .intro, .subscription, .why-us {
-    padding: 20px;
-  }
-
-  .intro h1 {
-    font-size: 1.6rem;
-    line-height: 1.4;
-    color: var(--cyan);
-    font-weight: 700;
-  }
-
-  .guarantee {
-    font-size: 1rem;
-    color: var(--bright-yellow);
-    font-weight: 700;
-  }
-
-  .description {
-    font-size: 1rem;
-    color: #222; 
-    line-height: 1.7;
-  }
-
-  .subscription {
-    background-color: var(--cyan);
-  }
-
-  .subscription h2 {
-    font-size: 1.2rem;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  .price span {
-    font-size: 1.9rem;
-  }
-
-  .access {
-    font-size: 1rem;
-    color: #f9f9f9;
-    line-height: 1.6;
-  }
-
-  .why-us {
-    background-color: var(--cyan-dark);
-  }
-
-  .why-us h2 {
-    font-size: 1.2rem;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  .why-us li {
-    font-size: 1rem;
-    color: #f9f9f9;
-    line-height: 1.6;
-  }
-
-  button {
-    font-size: 1rem;
-    padding: 14px;
-    background-color: var(--bright-yellow);
-    color: white;
-    font-weight: 700;
-  }
-
-  footer.attribution {
-    font-size: 10px;
-    color: var(--grayish-blue);
-    line-height: 1.4;
-  }
-}
 
 
 * {
